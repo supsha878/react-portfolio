@@ -13,7 +13,9 @@ As web developers, we must put our projects on display to peers and managers to 
 - React.js
 - JSX
 - npm
-    - 
+    - react
+    - react-dom
+    - react-scripts
 
 ## Deployment
 

@@ -3,7 +3,7 @@ import supriya from '../../assets/images/supriya.jpg';
 
 export default function About() {
     return (
-        <>
+        <main>
             <h2>About</h2>
             <article>
                 <p>
@@ -14,6 +14,6 @@ export default function About() {
                 </p>
             </article>
             <img src={supriya} alt='Supriya on the Pillbox Hike in Kailua, Hawaii' />
-        </>
+        </main>
     );
 }

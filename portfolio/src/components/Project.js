@@ -10,7 +10,8 @@ export default function Project(props) {
             <figcaption>
                 <h3>{props.projectInfo.title}</h3>
                 <p>{props.projectInfo.description}</p>
-                <a href={props.projectInfo.deployment} >Deployment</a><a href={props.projectInfo.repository} >Repository</a>
+                <a href={props.projectInfo.deployment} target='_blank'>Deployment</a>
+                <a href={props.projectInfo.repository} target='_blank'>Repository</a>
             </figcaption>
         </figure>
     );

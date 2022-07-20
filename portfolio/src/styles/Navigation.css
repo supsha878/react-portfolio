@@ -8,3 +8,12 @@ ul {
 li {
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li.active {
+    background-color: green;
+}

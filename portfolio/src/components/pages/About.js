@@ -13,7 +13,7 @@ export default function About() {
                     I have a wide range of skills from photoshop to R, and I learn new programs and languages quickly.
                 </p>
             </article>
-            <img src={supriya} alt='picture of Supriya on the Pillbox Hike in Kailua, Hawaii' />
+            <img src={supriya} alt='Supriya on the Pillbox Hike in Kailua, Hawaii' />
         </>
     );
 }

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9168d4ff.css",
+    "main.js": "/static/js/main.f39557cc.js",
+    "static/media/screenshot-marvel-wiki.png": "/static/media/screenshot-marvel-wiki.42e86300d8bb2734a598.png",
+    "static/media/screenshot-weather.png": "/static/media/screenshot-weather.5be28f9676d461859893.png",
+    "static/media/screenshot-move.png": "/static/media/screenshot-move.d2ec0ef34897346c8ceb.png",
+    "static/media/screenshot-team-profile.png": "/static/media/screenshot-team-profile.657c09af7a211f3e4e8e.png",
+    "static/media/supriya.jpg": "/static/media/supriya.5ca79effeb3ee6f41182.jpg",
+    "static/media/screenshot-tech-blog.png": "/static/media/screenshot-tech-blog.af69548cfab18400ed67.png",
+    "static/media/screenshot-quiz.png": "/static/media/screenshot-quiz.e1c34529e45cbc577dda.png",
+    "static/media/SSharma_Resume.pdf": "/static/media/SSharma_Resume.32108889ccfb26f10701.pdf",
+    "index.html": "/index.html",
+    "main.9168d4ff.css.map": "/static/css/main.9168d4ff.css.map",
+    "main.f39557cc.js.map": "/static/js/main.f39557cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9168d4ff.css",
+    "static/js/main.f39557cc.js"
+  ]
+}

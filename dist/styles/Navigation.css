@@ -1,0 +1,19 @@
+ul {
+    background-color: cornflowerblue;
+    flex: 0 0 62.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li.active {
+    background-color: green;
+}

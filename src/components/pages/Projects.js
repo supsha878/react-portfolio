@@ -68,7 +68,7 @@ export default function Projects() {
     ]
 
     return (
-        <main>
+        <main className='projects'>
             <h2>Projects</h2>
             {projectData.map((data) => {
                 return <Project key={data.id} projectInfo={data} />

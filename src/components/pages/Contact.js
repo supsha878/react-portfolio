@@ -13,7 +13,7 @@ export default function Contact() {
         const inputValue = target.value;
 
         if (!inputValue.trim()) {
-            setErrorMessage(`${inputType} field cannot be empty`);
+            setErrorMessage(`! ${inputType} field cannot be empty`);
         } else {
             setErrorMessage('');
         }
@@ -30,19 +30,19 @@ export default function Contact() {
     const handleFormSubmit = (event) => {
         event.preventDefault();
         if (!name) {
-            setErrorMessage('name field cannot be empty');
+            setErrorMessage('! name field cannot be empty');
             return;
         }
         if (!email) {
-            setErrorMessage('email field cannot be empty');
+            setErrorMessage('! email field cannot be empty');
             return
         }
         if (!validateEmail(email)) {
-            setErrorMessage('email is invalid');
+            setErrorMessage('! email is invalid');
             return;
         }
         if (!message) {
-            setErrorMessage('message field cannot be empty');
+            setErrorMessage('! message field cannot be empty');
             return;
         }
 
@@ -61,7 +61,7 @@ export default function Contact() {
     };
 
     return (
-        <main>
+        <main className='contact'>
             <h2>Contact</h2>
             <form>
                 <label htmlFor='name'>Name:</label>
@@ -84,19 +84,21 @@ export default function Contact() {
                 />
                 <label htmlFor='message'>Message:</label>
                 <textarea
+                    rows='5'
                     value={message}
                     onClick={handleInputChange}
                     onChange={handleInputChange}
                     name='message'
                     id='message'
                 ></textarea>
+                <br />
                 <button
                     onClick={handleFormSubmit}
                     type='submit'
                 >Send Message</button>
             </form>
             {errorMessage && (
-                <div>
+                <div className='error-message'>
                     <p>{errorMessage}</p>
                 </div>
             )}

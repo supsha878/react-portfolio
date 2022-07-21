@@ -1,21 +1,62 @@
+:root {
+    --dark-color: rgb(17, 11, 51);
+    --mid-color: rgb(130, 116, 197);
+    --light-color: rgb(204, 196, 242);
+}
+
+body {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
 #root {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: var(--light-color);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--mid-color);
 }
 
 header {
-    background-color: maroon;
     flex: 0 0 37.5%;
 }
 
+header h1 {
+    padding-left: 20%;
+    padding-top: 2.5%;
+    font-size: 250%;
+}
+
 nav {
-    background-color: rebeccapurple;
     flex: 0 0 62.5%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+
+nav li {
+    padding-top: 2.5%;
+    font-size: 150%;
+}
+
+nav li:hover {
+    padding-top: 2%;
+}
+
+nav .active {
+    color: var(--mid-color);
+    font-weight: bolder;
 }
 
 main {
-    background-color: skyblue;
     flex: 0 0 87.5%;
     display: flex;
     flex-wrap: wrap;
@@ -25,29 +66,146 @@ main {
 main h2 {
     flex: 0 0 100%;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-figure {
-    background-color: orange;
+.about article {
+    flex: 0 0 55%;
+    padding-left: 7.5%;
+}
+
+.about .picture {
+    flex: 0 0 25%;
+}
+
+.about img {
+    width: 37.5%;
+    border: 5px solid var(--light-color);
+    border-radius: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    padding-bottom: 2%;
+}
+
+.contact label {
+    padding-top: 1.5%;
+}
+
+.contact input, .contact textarea {
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+}
+
+.contact button {
+    border-radius: 25px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 1%;
+    border: none;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.contact button:active {
+    background-color: var(--mid-color);
+}
+
+.contact .error-message {
+    position: absolute;
+    text-align: center;
+    width: 10%;
+    top: 25%;
+    right: 15%;
+    border: 5px solid rgb(148, 26, 67);
+    color: rgb(148, 26, 67);
+    border-radius: 10px;
+    padding: 0.5% 0.5% 0 0.5%;
+}
+
+.projects figure {
     position: relative;
     flex: 0 0 37.5%
 }
 
-figure img {
+.projects figure img {
     width: 100%;
     height: 87.5%;
     object-fit: cover;
+    border: 7.5px solid var(--light-color);
+    border-radius: 15px;
 }
 
-figure figcaption {
+.projects figure figcaption {
     display: block;
     position: absolute;
-    bottom: 0;
+    bottom: 25%;
     right: 0;
-    background-color: lightgoldenrodyellow;
+    padding: 2.5%;
+    text-align: end;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border-radius: 12.5px;
+}
+
+.projects a {
+    color: var(--dark-color);
+}
+
+.projects a:hover {
+    color: var(--mid-color)
+}
+
+.resume {
+    justify-content: center;
+}
+
+.resume article {
+    display: flex;
+    flex-direction: column;
+}
+
+.resume .proficiencies {
+    flex: 0 0 37.5%;
+    text-align: center;
+}
+
+.resume .prof-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.resume p {
+    padding-top: 5%;
+    flex: 0 0 25%;
+    text-align: center;
+}
+
+.resume a {
+    color: var(--mid-color);
+}
+
+.resume a:hover {
+    text-decoration: underline;
 }
 
 footer {
-    background-color: aquamarine;
     flex: 0 0 100%;
+    padding: 5% 10% 1% 10%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer li {
+    font-size: 125%;
 }

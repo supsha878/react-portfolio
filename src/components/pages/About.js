@@ -3,7 +3,7 @@ import supriya from '../../assets/images/supriya.jpg';
 
 export default function About() {
     return (
-        <main>
+        <main className='about'>
             <h2>About</h2>
             <article>
                 <p>
@@ -13,7 +13,9 @@ export default function About() {
                     I have a wide range of skills from photoshop to R, and I learn new programs and languages quickly.
                 </p>
             </article>
-            <img src={supriya} alt='Supriya on the Pillbox Hike in Kailua, Hawaii' />
+            <div className='picture'>
+                <img src={supriya} alt='Supriya on the Pillbox Hike in Kailua, Hawaii' />
+            </div>
         </main>
     );
 }

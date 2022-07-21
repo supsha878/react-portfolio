@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Navigation({ currentPage, handlePageChange }) {
     return (
-        <ul>
+        <nav>
             <li>
                 <a
                     href='#about'
@@ -31,6 +31,6 @@ export default function Navigation({ currentPage, handlePageChange }) {
                     className={currentPage === 'Resume' ? 'active' : ''}
                 >Resume</a>
             </li>
-        </ul>
+        </nav>
     )
 }

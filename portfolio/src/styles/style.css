@@ -1,0 +1,53 @@
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    background-color: maroon;
+    flex: 0 0 37.5%;
+}
+
+nav {
+    background-color: rebeccapurple;
+    flex: 0 0 62.5%;
+}
+
+main {
+    background-color: skyblue;
+    flex: 0 0 87.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+main h2 {
+    flex: 0 0 100%;
+    text-align: center;
+}
+
+figure {
+    background-color: orange;
+    position: relative;
+    flex: 0 0 37.5%
+}
+
+figure img {
+    width: 100%;
+    height: 87.5%;
+    object-fit: cover;
+}
+
+figure figcaption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: lightgoldenrodyellow;
+}
+
+footer {
+    background-color: aquamarine;
+    flex: 0 0 100%;
+}

@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Content from './components/Content';
 import Footer from './components/Footer';
 import './styles/normalize.css';
+import './styles/style.css';
 
 export default function App() {
     return (

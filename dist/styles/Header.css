@@ -1,8 +1,0 @@
-header {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-h1 {
-    flex: 0 0 37.5%;
-}

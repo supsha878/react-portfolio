@@ -19,4 +19,8 @@ As web developers, we must put our projects on display to peers and managers to 
 
 ## Deployment
 
+![screenshot of the projects page with a couple of projects visible with a screenshot, title, topic, link to deployment and link to the repository. At the bottom, there is a footer with links to different pages](./assets/screenshot-react-portfolio-1.png)
+
+![screenshot of the contact page with a form and 'send messsage' button at the bottom](./assets/scrrenshot-react-portfolio-2.png)
+
 [Link to deployed web page](https://supsha878.github.io/react-portfolio/)
